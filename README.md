@@ -1,14 +1,14 @@
 # MADPractical8_20012011017
 
-AIM:- What is Difference between ListView and RecyclerView? Create SMS Android Application that can receive SMS by BroadcastReceiver and Interface, Send SMS and read & display all SMS of Inbox by using RecyclerView according to below instructions.
+AIM:- What is Frame by Frame Animation? What is Twin Animation? How can you achieve edge-to-edge content display in your app?  Create Android Application to demonstrate Frame by frame animation and splash screen to demonstrate twin animation according to below instructions.
+
 1.Create MainActivity according to below UI design.
-2.Create SMSView Class with two member variables (Phone No., Message) and create adapter class of RecyclerView.
-3.Create SMSBroadcastReceiver to receive SMS.
-4.Create AlertDialog Method in MainActivity to display Sent SMS and receive SMS contents in AlertDialog.
-5.Add Permissions of Read, Send, Receive SMS in Manifest File and same check in MainActivity.
-6.Use Databinding in gradle file to easy way integrate xml into kotlin file
-7.Use Material 3 design for UI
-8.Create Refresh Option in Option Menu. It will reload SMS contents in RecyclerView.
+
+2.Create SplashActivity according to Video.
+
+3.Create gradient Rectangle by using <gradient> tag in <shape> tag for background of SplashActivity. Use radial rectangle with x = 0.9, y =0.9, radius = 1500. Start Color pink and End Color blue. shape should be rectangle.
+
+4.Add these all in project: <animation-list>, oneShot attribute, <set> tag, android:startOffset = 100, android:duration=1000, <scale> tag, <translate> tag, <rotate> tag, <alpha> tag.
 
 ![image](https://user-images.githubusercontent.com/110706350/196115510-13310cf6-20f3-4715-b3c0-299ab420c82c.png)
 
